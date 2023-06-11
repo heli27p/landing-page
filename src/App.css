@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}    
+
+.nav-link{
+    color: rgb(172, 255, 156);
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link.active {
+    background-color: rgb(172, 255, 156) !important;
+    color: rgb(9, 61, 9) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-container{
+    /* background: url('pictures-vedic\pexels-seven-lee-15969174.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    object-fit: contain; 
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+    background-color: rgb(212, 255, 203);
+    padding: 20px;
+    margin: 50px;
+    position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-image {
+    position: absolute;
+    top: -20%;
+    left: 40%;
+    width: 70px; 
+    height: 70px;
 }
+
+.container{
+    background-color: rgb(9, 61, 9);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+  
+.top-left-rounded {
+    border-radius: 50px 0 50px 0;
+}
+  
+.top-right-rounded {
+    border-radius: 0 50px 0 50px;
+}
+  
+.bottom-left-rounded {
+    border-radius: 50px 0 50px 0;
+}
+  
+.bottom-right-rounded {
+    border-radius: 0 50px 0 50px;
+}
+
+.footer{
+    color: rgb(9, 61, 9);
+}
+
+.footer-bottom{
+    background-color: rgb(9, 61, 9);
+    color: rgb(212, 255, 203);
+    text-align: center;
+}  
+  
